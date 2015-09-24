@@ -23,6 +23,18 @@ public class ToDoList {
     }
 
 
+    public void makePriority() {
+
+
+    }
+
+
+    public void clearList() {
+
+        this.list.clear();
+    }
+
+
 
 
     @Override
@@ -32,7 +44,7 @@ public class ToDoList {
 
         for (int i = 0; i < this.list.size(); i++) {
 
-            result += this.list.get(i).toString() + "\n";
+            result += (i + 1) + ". "  + this.list.get(i).toString() + "\n";
 
         }
 
