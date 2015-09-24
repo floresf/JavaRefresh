@@ -23,7 +23,13 @@ public class ToDoList {
     }
 
 
-    public void makePriority() {
+    public void makePriority(int listPosition) {
+
+
+
+
+
+
 
 
     }
