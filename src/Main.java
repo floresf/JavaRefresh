@@ -27,11 +27,15 @@ public class Main {
 
         System.out.println(mondays.toString());
 
+        System.out.println();
 
+        mondays.makePriority(2);
 
+        System.out.println(mondays.toString());
 
+        item2.setComplete(true);
 
-
+        System.out.println(mondays.toString());
 
 
 

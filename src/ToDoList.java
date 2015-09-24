@@ -25,11 +25,19 @@ public class ToDoList {
 
     public void makePriority(int listPosition) {
 
+        listPosition -= 1;
 
+        ListItem tempItem = this.list.get(listPosition);
 
+        for (int i = listPosition; i > 0; i--) {
 
+            //tempItem = this.list.get(i);
 
+            this.list.set(i, this.list.get(i - 1));
 
+        }
+
+        this.list.set(0, tempItem);
 
 
     }
