@@ -34,5 +34,12 @@ public class ListItem {
 
     }
 
+    @Override
+    public String toString() {
+
+        return this.content + ", " + this.complete;
+
+    }
+
 
 }
