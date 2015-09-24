@@ -8,11 +8,23 @@ public class Main {
     public static void main(String[] args) {
 
 
+        ToDoList mondays = new ToDoList();
+
+        ListItem testList = new ListItem("Finish Laundry", false);
+
+
+        mondays.addListItem(testList);
+
+
+        System.out.println(mondays.toString());
 
 
 
 
-        ListItem testList = new ListItem();
+
+
+
+
 
 
 
